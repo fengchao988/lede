@@ -126,7 +126,8 @@ jobs:
           CONFIG_PACKAGE_luci-app-ttyd=y
           CONFIG_PACKAGE_luci-app-transmission=y
           CONFIG_PACKAGE_luci-app-aliddns=y
-          CONFIG_PACKAGE_luci-app-cifsd
+          CONFIG_PACKAGE_luci-app-cifsd=y
+          CONFIG_PACKAGE_luci-app-cifs-mount=y
           EOF
           
           # 多文件系统支持:
